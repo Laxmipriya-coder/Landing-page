@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f8fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.btn {
+  background: white;
+  color: #007bff;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #e0f0ff;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.about, .benefits, .faq, .cta, .testimonials, .mentor {
+  background: white;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 8px 0;
+}
+
+.mentor-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.mentor-card img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.testimonials span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.faq .faq-item {
+  margin: 15px 0;
+}
+
+.faq h4 {
+  font-weight: bold;
+}
+
+footer {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p, .btn {
+    font-size: 1rem;
+  }
+
+  .mentor-card img {
+    width: 80px;
+  }
+}
